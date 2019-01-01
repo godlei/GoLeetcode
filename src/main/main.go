@@ -1,11 +1,8 @@
 package main
 
-import (
-	"fmt"
-	"GoLeetcode/src/leetcode"
-)
+import "GoLeetcode/src/example"
 
-func main(){
-	fmt.Println("hello,godwang")
-	leetcode.Test()
+func main() {
+	//leetcode.Problem1()
+	example.StringExample()
 }
