@@ -1,5 +1,8 @@
 package example
 
+/*
+	字符串操作相关
+*/
 import (
 	"fmt"
 	"reflect"

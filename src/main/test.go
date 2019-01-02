@@ -1,13 +1,9 @@
 package main
 
-import (
-	"fmt"
-	"strings"
-)
+import "fmt"
 
 func main() {
-	str := "abcdefg higklin"
-	s1 := strings.LastIndex(str, " ")
-	fmt.Println(str[s1+1:])
-
+	n := 2
+	n = n << 2
+	fmt.Println(n)
 }
